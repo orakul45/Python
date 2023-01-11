@@ -5,10 +5,10 @@
 # - Если пользователь ошибся вывести 'Неверно'
 
 
-day_Pushkin = '06.06.1799'
-age_Pushkin = input('Когда родился Пушкин? (дд.мм.гггг): ')
-print("Проверка: ", age_Pushkin)
-if age_Pushkin == day_Pushkin:
+birthday_Pushkin = '06.06.1799'
+question = input('Когда родился А.С.Пушкин? (дд.мм.гггг): ')
+print("Проверка: ", question)
+if question == birthday_Pushkin:
      print("Правильно!")
 else:
      print("Не правильно!")
