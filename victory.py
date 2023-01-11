@@ -10,12 +10,11 @@
 
 
 famous_years = {
-                'Mikhailo Lomonosov': 1711,
-                'Vladimir Lenin': 1870,
-                'Ivan Pavlov': 1849,
-                'Ivan Sechenov': 1829,
-                'Piotr Anokhin': 1898,
-                'Zigmund Freud': 1856
+'Владимир Путин': 1952,
+                'Си Цзиньпин': 1953,
+                'Джо Байден': 1942,
+                'Эмманюэль Макрон': 1977,
+                'Реджеп Тайип Эрдоган': 1954
 }
 
 
@@ -40,7 +39,7 @@ while next_round == 'y':
     print(f'Верно угадано: {hit} ({hit_percent}%), ошибок: {lose} ({lose_percent}%)!\n')
 
     if hit_percent == 100:
-        print('100% верных ответов! Генильно! Да вы знаток!!! С вами мой ИИ тягаться не может, до свидания!')
+        print('Абсолютно точно! 100% правильных ответов')
         next_round = 'n'
     else:
         next_round = input('Хотите продолжить? [y/n]: ')
