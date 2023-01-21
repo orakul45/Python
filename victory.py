@@ -12,8 +12,7 @@ def get_random_person():
                      'Сергей Павлович Королев': '12.01.1907', 'Валентин Петрович Глушко': '20.08.1908',
                      'Андрей Николаевич Туполев': '29.10.1888', 'Юрий Алексеевич Гагарин': '09.03.1934'}
 
-    # print(FAMOUS_PEOPLE)
-    # print(FAMOUS_PEOPLE.items())
+
     name, date = random.choice(list(FAMOUS_PEOPLE.items()))
     return name, date
 
