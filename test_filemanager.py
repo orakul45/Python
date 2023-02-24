@@ -1,4 +1,4 @@
-from file_manager import make_directory, delete_file_dir, change_dir, save_dirlist
+from file_manage import make_directory, delete_file_dir, change_dir, save_dirlist
 from os import path, mkdir, rmdir, getcwd
 import json
 
