@@ -1,0 +1,2 @@
+files: ['balans.txt', 'bank.py', 'borndayforewer.py', 'bornyear.py', 'buy.txt', 'file_manage.py', 'functions.py', 'listdir.txt', 'newbalans.txt', 'variables.py', 'victory.py']
+dir: ['.git', '.idea', 'venv', '__pycache__']
